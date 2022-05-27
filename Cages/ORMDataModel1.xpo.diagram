@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<visualDesignerDiagram dslVersion="1.0.0.0" Id="2373c864-6f4f-4fb5-b266-8f0139f4d319" absoluteBounds="0, 0, 11, 8.5" name="ORMDataModel1">
+  <dataBaseObjectModelMoniker Id="4f2c0323-dd05-4874-a141-5da24e880dd9" />
+  <nestedChildShapes>
+    <xpObjectShape Id="ee84f96d-85ff-4cd6-b72c-f18b9ff0a057" absoluteBounds="2.625, 2, 3.8666666666666671, 1.7550732421875002">
+      <xpObjectMoniker Id="f64403e7-157c-4008-b953-dcc7449fbd7d" />
+      <nestedChildShapes>
+        <elementListCompartment Id="042cc9a6-8bb7-41a9-a4f6-ee3780decf79" absoluteBounds="2.64, 2.31, 3.8366666666666669, 0.8262939453125" name="Fields" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="ea26339c-edbe-4032-808c-007328a94776" absoluteBounds="2.64, 3.1462939453125003, 3.8366666666666669, 0.2493896484375" name="Indexes" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="ffb9c50b-92fa-413b-8d65-899d7be55426" absoluteBounds="2.64, 3.40568359375, 3.8366666666666669, 0.2493896484375" name="Collections" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </xpObjectShape>
+  </nestedChildShapes>
+</visualDesignerDiagram>

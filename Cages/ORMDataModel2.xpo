@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b361bdde-551b-4c19-a14b-0e57ae1028ee" namespace="Cages.ORMDataModel2" dataBaseShemaInfo="H4sIAAAAAAAEAMWVXW+bMBSG7yftP6Bcx2ATPitCtYasqro1UdNO024mYx8SNDARhiT79zMJIR9t96FN3R1+znvk8/ocm+Byk2faCkqZFmLYIzruXYZv3wRXVMKsKko6hxuRFJpSCXmxkemwt6iq5YVhrNdrfT3Qi3JumBgT4/PHDzO2gJyiVMiKCga9Lov/OqundtW04IHGGchmy+16T47AHt3RHMLpl+k4uokmgXFgnWwsGhZWZQ2B0S66YJTKBjwuOa0gTGgmlegUdtrrOuU3PEyAEWbZDvIGvoWsAcGIYpOgBEzKOHCXMRIYrbhLHhVZnQt54uBFrAKNh10w3Hs7QifSnxn8U5PHRl3bN10fu8i0CEMWpxTFyjkitklth3DH4/4Toyrd+Auvk6/K7etbxbbngIVthJlHkGWbibKKPdXYRHU0tlVj7X9tdTSJDnP72oaJ48UOTTBiHnBkgeUhn8eA+MDFHMeew0n824afo+1V7Ei7PkiC5l0BPi0LtoWascOfdo9QGMFqvFmWIKUe0YrqK+LrZl9rw8NmpTs67mujOqvqEoYC6qqkWV+b1nGWslv4/lB8AzGMPY8T17a4izFYPg2M/Rbb/UYZlRJk04D7ujvd4B1XpUGSbtq6dmhWJyfoHvJiBefCHT3XjtRbGj4KtqBiDlydWbPeHc1zNQTqZJZQVul/ru2FMoJrEFCq8RoVeQ6iku2MPsEn4ghkOlef71M1CmcZp7Ft2l2dZc3UXMGCrtKiVEORUNVudV/OI+pnZZz9rcIfh+qPRNYGAAA=" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="19.2.6.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="19.2.6.0" name="ORMDataModel2" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="9e28ee6e-4fb5-4de6-b3c4-272e9d9875d7">
+      <xpObject Id="fec1c456-8394-4310-a021-fe2acded7cc1" name="PZPEDIDO" baseClass="XPLiteObject" userFileName="PZPEDIDO" designerFileName="PZPEDIDO.Designer" className="PZPEDIDO" virtualBaseClass="XPLiteObject" virtualName="PZPEDIDO">
+        <fields>
+          <generalXpObjectHasFields Id="9a736f85-ea72-4fb1-a4df-384cecd52833">
+            <field Id="75927907-241c-4daa-b1c4-152a561d68d9" name="PEDIDO" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4d7ca46a-57c1-4b3b-a478-68c2b0548140">
+            <field Id="0586e405-0c81-452f-b108-a0fdedb5acd5" name="O_PED" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2360a2b8-0646-4351-a3dd-1d99c4a57596">
+            <field Id="168b6af0-c8ed-4e48-9dbe-d370d0b86d1b" name="CODPZPEDIDO" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4f2c0323-dd05-4874-a141-5da24e880dd9" namespace="Cages.ORMDataModel1" dataBaseShemaInfo="H4sIAAAAAAAEAMWVXW+bMBSG7yftP6Bcx4AJYKgIVRqyKtqWVUk67W4y+JCggYkwJNm/nwmElrTdhzatd5znvEc+r31svOtjlip7KESS8/EAq/rg2n/7xruhAlZlXtANzHmcK1LFxdVRJOPBtix3V5p2OBzUw0jNi41m6DrWvnz8sIq2kFGUcFFSHsGgq2K/rhrIVRXFW9MwBVEveYrP5BE4owXNwJ8sguWnefB1OrmdedoD76QzXjO/LCrwtDbokkEianC/Y7QEP6apkKI+7LS3VcLmzI9t09RHQBC2SIRMXXdQ6FojxKKImKYbh4wwT2vFXfE0T6uMi56LF7FM1B6apD8PGm+PUE/6M4N/arJnlDqOwYiNMLYYMm1mo1CPMMI2dm1glgUOPDEqy7W/8DpZzib/36k8MQN0jNGIYIJMprsoxIaFHMOICFiG4cbxv3Y6W60ni/UrHGtIRiMaYkC26djIdKiDnNACRKjrYpcYoQHOb5t9jra3sCNt/CDx6mcF2F2RRyeoaA3+3LxBfgD72XFXgBBqQEuq7rGrGkOlTY/rSLVVfahMq7SsChhzqMqCpkPlrgrTJHoP39f5N+Dj0HEYJpbJiK6D6VJPOy9xWm+aUiFA1AewrLrd9SZMtgZxcmz7atCqintoCVm+h0thQy+1U/mU+vc82lK+Afk4nOJma57rwZM7s4OiTF65txfa8G6BQyHHa5pnGfBStDP6BPfEAYhkIz/fJXIULir6uVPZokrTempuYEv3SV7IoYipPG55Xy4z8l+lXfys/B88rqvD1QYAAA==" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="19.2.6.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="19.2.6.0" name="ORMDataModel1" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="a2ecf954-3fa6-4120-b8d2-728c123e89fc">
+      <xpObject Id="f64403e7-157c-4008-b953-dcc7449fbd7d" name="ANDROID_CAGE" baseClass="XPLiteObject" userFileName="ANDROID_CAGE" designerFileName="ANDROID_CAGE.Designer" className="ANDROID_CAGE" virtualBaseClass="XPLiteObject" virtualName="ANDROID_CAGE">
+        <fields>
+          <generalXpObjectHasFields Id="bad6bdee-9d88-46e3-9a4b-b38ebda7d89b">
+            <field Id="fa882d76-115d-46d6-b0c1-16196ed55e8e" name="IDCAGE" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4413eb3d-5d07-4b61-b953-cc310f8adb64">
+            <field Id="d7d2e011-3717-4d09-b125-822c7e5229ff" name="AREA" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5d399594-0eb0-4100-b9de-d7083f6a6c78">
+            <field Id="b733ab1e-6486-48a8-8b5e-7a991972b2e8" name="ESTANTE" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
