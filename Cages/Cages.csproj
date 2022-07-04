@@ -129,6 +129,12 @@
     <Compile Include="FrmPzTrabajo.Designer.cs">
       <DependentUpon>FrmPzTrabajo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inner.Designer.cs">
+      <DependentUpon>Inner.cs</DependentUpon>
+    </Compile>
     <Compile Include="ORMDataModel1Code\ANDROID_CAGE.cs" />
     <Compile Include="ORMDataModel1Code\ANDROID_CAGE.Designer.cs">
       <DependentUpon>ANDROID_CAGE.cs</DependentUpon>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPzTrabajo.resx">
       <DependentUpon>FrmPzTrabajo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inner.resx">
+      <DependentUpon>Inner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parent.resx">
       <DependentUpon>Parent.cs</DependentUpon>

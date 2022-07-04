@@ -252,5 +252,21 @@ namespace Cages
                 newMDIChilDbglobal.Focus();
             }
         }
+
+        private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            bool isOpen = isOpenChild("Inner");
+            //gridControl1.Visible = false;
+
+            if (!isOpen)
+            {
+                Inner newMDIChilDbglobal = new Inner();
+                //Set the Parent Form of the Child window.
+                newMDIChilDbglobal.MdiParent = this;
+                //Display the new form.
+                newMDIChilDbglobal.Show();
+                newMDIChilDbglobal.Focus();
+            }
+        }
     }
 }
