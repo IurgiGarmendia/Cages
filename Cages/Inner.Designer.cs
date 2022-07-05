@@ -36,6 +36,7 @@
             this.colO_PED = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colPOS = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colKODE = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
@@ -115,17 +116,29 @@
             this.colKODE.VisibleIndex = 4;
             this.colKODE.Width = 94;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(619, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
+            // 
             // Inner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.gridControl1);
             this.Name = "Inner";
             this.Text = "Inner";
+            this.Load += new System.EventHandler(this.Inner_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -139,5 +152,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn colO_PED;
         private DevExpress.XtraGrid.Columns.GridColumn colPOS;
         private DevExpress.XtraGrid.Columns.GridColumn colKODE;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -213,6 +213,8 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
+#nik gehitua, projetua ez sartu
+.csproj
 
 # Business Intelligence projects
 *.rdl.data
